@@ -6,19 +6,14 @@ import CssBaseline from "@mui/material/CssBaseline";
 import Divider from "@mui/material/Divider";
 import Drawer from "@mui/material/Drawer";
 import IconButton from "@mui/material/IconButton";
-import InboxIcon from "@mui/icons-material/MoveToInbox";
 import List from "@mui/material/List";
 import ListItem from "@mui/material/ListItem";
-import ListItemButton from "@mui/material/ListItemButton";
-import ListItemIcon from "@mui/material/ListItemIcon";
-import ListItemText from "@mui/material/ListItemText";
-import MailIcon from "@mui/icons-material/Mail";
 import MenuIcon from "@mui/icons-material/Menu";
 import Toolbar from "@mui/material/Toolbar";
 import Typography from "@mui/material/Typography";
-import { Button } from "@mui/material";
+import Button from "@mui/material/Button";
 
-const drawerWidth = 280;
+const drawerWidth = 260;
 
 function Main(props) {
   const { window } = props;
@@ -51,11 +46,16 @@ function Main(props) {
                 justifyContent: "left",
                 pl: "25px",
                 bgcolor: "white",
+                "&:hover": {
+                  bgcolor: "#B8BCBF",
+                },
               }}
             >
               <Typography
                 sx={{ color: "black", fontSize: "16px" }}
                 textTransform="capitalize"
+                fontFamily="arvo"
+                fontWeight="bold"
               >
                 {text}
               </Typography>
