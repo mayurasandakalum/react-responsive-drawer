@@ -1,10 +1,14 @@
 import React from "react";
-import Main from "./screens/Main";
+import { BrowserRouter as Router } from "react-router-dom";
+
+import Main from "./screen/Main";
 
 const App = () => {
   return (
     <div>
-      <Main />
+      <Router>
+        <Main />
+      </Router>
     </div>
   );
 };
