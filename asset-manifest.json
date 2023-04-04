@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/react-responsive-drawer/static/css/main.e6c13ad2.css",
+    "main.js": "/react-responsive-drawer/static/js/main.e50463cf.js",
+    "index.html": "/react-responsive-drawer/index.html",
+    "main.e6c13ad2.css.map": "/react-responsive-drawer/static/css/main.e6c13ad2.css.map",
+    "main.e50463cf.js.map": "/react-responsive-drawer/static/js/main.e50463cf.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e6c13ad2.css",
+    "static/js/main.e50463cf.js"
+  ]
+}
