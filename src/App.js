@@ -1,8 +1,12 @@
-import logo from "./logo.svg";
-import "./App.css";
+import React from "react";
+import Main from "./screens/Main";
 
-function App() {
-  return <div></div>;
-}
+const App = () => {
+  return (
+    <div>
+      <Main />
+    </div>
+  );
+};
 
 export default App;
